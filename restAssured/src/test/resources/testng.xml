@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Booker App">
+    <test name="Regression">
+         <classes>
+             <class name="nagp.com.testcases.TEST_CREATE_AND_GET_TOKEN"/>
+             <class name="nagp.com.testcases.TEST_CREATEBOOKING"/>
+             <class name="nagp.com.testcases.TEST_DELETE_BOOKING"/>
+             <class name="nagp.com.testcases.TEST_GETBOOKING_BOOKINGIDS"/>
+             <class name="nagp.com.testcases.TEST_PATCH_BOOKING"/>
+             <class name="nagp.com.testcases.TEST_PUT_BOOKING"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
